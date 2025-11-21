@@ -1,0 +1,118 @@
+/* Styles pour le thème sombre */
+.dark-theme {
+  /* Couleurs de base */
+  --bg-primary: #1a202c;
+  --bg-secondary: #2d3748;
+  --bg-tertiary: #4a5568;
+  --text-primary: #e2e8f0;
+  --text-secondary: #cbd5e0;
+  --accent-primary: #00c8ff;
+  --accent-secondary: #0097a7;
+  
+  /* Appliquer les couleurs */
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+}
+
+/* Style du header en mode sombre */
+.dark-theme header {
+  background-color: var(--bg-secondary);
+  color: var(--text-primary);
+}
+
+/* Style des liens de navigation en mode sombre */
+.dark-theme header a {
+  color: var(--text-primary);
+}
+
+.dark-theme header a:hover {
+  color: var(--accent-primary);
+}
+
+/* Style des boutons de thème en mode sombre */
+.dark-theme #theme-toggle,
+.dark-theme #theme-toggle-mobile {
+  color: var(--text-primary);
+}
+
+.dark-theme #theme-toggle:hover,
+.dark-theme #theme-toggle-mobile:hover {
+  color: var(--accent-primary);
+}
+
+/* Style des sections en mode sombre */
+.dark-theme section {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+}
+
+.dark-theme section.bg-gray-50 {
+  background-color: var(--bg-secondary);
+}
+
+/* Style des cartes en mode sombre */
+.dark-theme .bg-white {
+  background-color: var(--bg-secondary);
+  color: var(--text-primary);
+  border-color: var(--bg-tertiary);
+}
+
+.dark-theme .text-gray-800 {
+  color: var(--text-primary);
+}
+
+.dark-theme .text-gray-600 {
+  color: var(--text-secondary);
+}
+
+.dark-theme .text-gray-700 {
+  color: var(--text-secondary);
+}
+
+/* Style des titres en mode sombre */
+.dark-theme .text-\[\\33A537B\] {
+  color: var(--text-primary);
+}
+
+/* Style des boutons en mode sombre */
+.dark-theme .bg-cyan-500 {
+  background-color: var(--accent-secondary);
+}
+
+.dark-theme .bg-cyan-500:hover {
+  background-color: var(--accent-primary);
+}
+
+/* Style des pieds de page en mode sombre */
+.dark-theme footer {
+  background-color: var(--bg-secondary);
+  color: var(--text-primary);
+}
+
+/* Style des formulaires en mode sombre */
+.dark-theme input,
+.dark-theme textarea {
+  background-color: var(--bg-secondary);
+  color: var(--text-primary);
+  border-color: var(--bg-tertiary);
+}
+
+.dark-theme input:focus,
+.dark-theme textarea:focus {
+  border-color: var(--accent-primary);
+  box-shadow: 0 0 0 3px rgba(0, 200, 255, 0.3);
+}
+
+/* Style des icônes en mode sombre */
+.dark-theme svg {
+  color: var(--text-primary);
+}
+
+/* Style des éléments de la bannière en mode sombre */
+.dark-theme .bg-1 {
+  background: linear-gradient(rgba(26, 32, 44, 0.85), rgba(26, 32, 44, 0.6)), url('../assets/bg-d5.jpg') no-repeat center center / cover fixed;
+}
+
+.dark-theme .bg-2 {
+  background: linear-gradient(rgba(26, 32, 44, 0.7), rgba(26, 32, 44, 0.7)), url('../assets/bg-d7.jpg') no-repeat center center / cover fixed;
+}

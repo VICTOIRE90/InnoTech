@@ -1,0 +1,37 @@
+.bg-1{
+    background: 
+    linear-gradient(rgba(24, 13, 13, 0.849), rgba(0, 0, 0, 0.596)), /* dégradé */
+    url('./assets/bg-d5.jpg') no-repeat center center / cover fixed;
+}
+
+.bg-2{
+    background: 
+    linear-gradient(rgba(10, 19, 99, 0.678), rgba(35, 36, 122, 0.685)),/* dégradé */
+    url('./assets/bg-d7.jpg') no-repeat center center / cover fixed;
+}
+
+.color{
+    color: #F4F6F9 ;
+}
+
+.bg-3{
+    background: 
+    linear-gradient(rgba(10, 19, 99, 0.678), rgba(35, 36, 122, 0.685)),/* dégradé */
+    url('./assets/back-1.jpg') no-repeat center center / cover fixed;
+}
+
+/* Transition fluide pour le changement de thème */
+body {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Styles pour le thème clair (par défaut) */
+body {
+    background-color: #ffffff;
+    color: #333333;
+}
+
+/* S'assurer que les titres restent lisibles */
+.text-\[\\33A537B\] {
+    color: #3A537B;
+}
